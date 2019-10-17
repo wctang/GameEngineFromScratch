@@ -2,6 +2,9 @@
 
 default: win d2d d3d opengl d3d12
 
+clean:
+	rm -f *.obj *.exe *.pso *.vso
+
 win:
 	clang -l user32.lib -l gdi32.lib -o helloengine_win.exe helloengine_win.c
 
