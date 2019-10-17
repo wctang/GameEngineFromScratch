@@ -2,6 +2,9 @@ _builds
 
 *.obj
 
+*.pso
+*.vso
+
 *.exe
 
 
